@@ -50,3 +50,21 @@ section {
   width: 30%;
   margin: 0;
 }
+
+section.animar-escondido {
+  opacity: 0;
+  transform: translateX(200px);
+  filter: blur(10px);
+
+  transition: all 1s;
+}
+
+section.animar-visivel {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+.secoes-juntas section:nth-child(2) {
+  transition-delay: 300ms;
+}
