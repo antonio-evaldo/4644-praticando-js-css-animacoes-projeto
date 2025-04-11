@@ -10,5 +10,5 @@ const observador = new IntersectionObserver((entradas) => {
   threshold: 0.3,
 });
 
-const elementos = document.querySelectorAll('.animar-escondido');
+const elementos = document.querySelectorAll('.animar');
 elementos.forEach((elemento) => observador.observe(elemento));

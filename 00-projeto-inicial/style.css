@@ -22,7 +22,7 @@ h1 {
 
 section {
   font-size: 1.75rem;
-  height: 80vh;
+  min-height: 80vh;
   width: 70%;
   max-width: 1100px;
   margin: 0 auto;
@@ -45,13 +45,14 @@ section {
 }
 
 .secoes-juntas section {
-  font-size: 1.5rem;
-  height: 50vh;
+  font-size: 1.25rem;
+  min-height: 50vh;
   width: 30%;
   margin: 0;
+  padding: 2rem;
 }
 
-section.animar-escondido {
+section.animar {
   opacity: 0;
   transform: translateX(200px);
   filter: blur(10px);
